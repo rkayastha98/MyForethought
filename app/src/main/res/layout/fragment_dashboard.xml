@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+    <ImageButton
+        android:id="@+id/list"
+        android:layout_width="125dp"
+        android:layout_height="165dp"
+        android:layout_below="@+id/travel"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="20dp"
+        android:layout_toEndOf="@+id/budget"
+        android:backgroundTint="@android:color/holo_green_light"
+        android:elevation="10dp"
+        android:onClick="listBtn"
+        android:scaleType="centerInside"
+        android:src="@drawable/list" />
+
+    <ImageButton
+        android:id="@+id/budget"
+        android:layout_width="205dp"
+        android:layout_height="165dp"
+        android:layout_below="@+id/calendar"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="#E91E63"
+        android:elevation="10dp"
+        android:onClick="budBtn"
+        android:scaleType="centerInside"
+        android:src="@drawable/coins" />
+
+    <ImageButton
+        android:id="@+id/exercise"
+        android:layout_width="125dp"
+        android:layout_height="165dp"
+        android:layout_below="@+id/budget"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toStartOf="@+id/diary"
+        android:backgroundTint="#3F51B5"
+        android:elevation="10dp"
+        android:onClick="exeBtn"
+        android:scaleType="centerInside"
+        android:src="@drawable/exercise" />
+
+    <ImageButton
+        android:id="@+id/diary"
+        android:layout_width="205dp"
+        android:layout_height="165dp"
+        android:layout_below="@+id/list"
+        android:layout_alignStart="@+id/travel"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#FF5722"
+        android:elevation="10dp"
+        android:onClick="diaBtn"
+        android:scaleType="centerInside"
+        android:src="@drawable/diary" />
+
+    <ImageButton
+        android:id="@+id/travel"
+        android:layout_width="205dp"
+        android:layout_height="165dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#37A7C0"
+        android:elevation="10dp"
+        android:onClick="traBtn"
+        android:scaleType="centerInside"
+        android:src="@drawable/airplane" />
+
+    <ImageButton
+        android:id="@+id/calendar"
+        android:layout_width="125dp"
+        android:layout_height="165dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toStartOf="@+id/travel"
+        android:backgroundTint="#FFEB3B"
+        android:elevation="10dp"
+        android:onClick="calBtn"
+        android:scaleType="centerInside"
+        android:src="@drawable/calendar" />
+
+
+</RelativeLayout>
