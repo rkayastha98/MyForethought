@@ -12,7 +12,7 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="42dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="9dp"
         android:background="#5BEEEDED"
         android:backgroundTint="#FFFDFD"
