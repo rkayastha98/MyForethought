@@ -94,27 +94,4 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         return loadFragment(fragment);
     }
 
-    public void calBtn(View view){
-
-    }
-
-    public void traBtn(View view){
-
-    }
-
-    public void budBtn(View view){
-
-    }
-
-    public void listBtn(View view){
-
-    }
-
-    public void exeBtn(View view){
-
-    }
-
-    public void diaBtn(View view){
-
-    }
 }
