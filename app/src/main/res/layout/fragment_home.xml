@@ -22,25 +22,6 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <androidx.cardview.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="177dp"
-                android:elevation="@dimen/bottom_navigation_padding_right"
-                app:cardElevation="@dimen/bottom_navigation_padding_right"
-                app:cardMaxElevation="@dimen/bottom_navigation_padding_right">
-
-                <TextView
-                    android:id="@+id/textView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:lineSpacingExtra="8sp"
-                    android:text="TextView"
-                    android:textAlignment="center"
-                    android:textAppearance="@style/TextAppearance.AppCompat.Small"
-                    android:textStyle="bold" />
-            </androidx.cardview.widget.CardView>
-        </LinearLayout>
+            android:orientation="vertical"/>
     </androidx.core.widget.NestedScrollView>
 </RelativeLayout>

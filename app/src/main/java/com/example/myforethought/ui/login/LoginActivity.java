@@ -2,6 +2,7 @@ package com.example.myforethought.ui.login;
 
 import android.app.Activity;
 
+import androidx.annotation.NonNull;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProviders;
 
@@ -14,6 +15,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.inputmethod.EditorInfo;
@@ -28,6 +30,10 @@ import com.example.myforethought.ui.login.LoginViewModel;
 import com.example.myforethought.ui.login.LoginViewModelFactory;
 import com.example.myforethought.ui.login.dashboard.MainActivity;
 import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.iid.FirebaseInstanceId;
+import com.google.firebase.iid.InstanceIdResult;
 
 import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
@@ -123,6 +129,8 @@ public class LoginActivity extends AppCompatActivity {
                         passwordEditText.getText().toString());
             }
         });
+
+        System.out.println("=================id==================="+FirebaseInstanceId.getInstance().getInstanceId());
     }
 
     private void updateUiWithUser(LoggedInUserView model) {
