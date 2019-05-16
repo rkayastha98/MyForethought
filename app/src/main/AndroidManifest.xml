@@ -24,6 +24,11 @@
         <activity
             android:name=".ui.login.dashboard.MainActivity"
             android:label="@string/title_activity_main" />
+
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-2921400589693279~8869524054"/>
     </application>
 
 </manifest>

@@ -10,10 +10,10 @@ import androidx.annotation.Nullable;
 import com.example.myforethought.R;
 import com.example.myforethought.ui.login.dashboard.SettingsFragment;
 
-public class AccountSettings extends SettingsFragment {
+public class About extends SettingsFragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_account_settings, null);
+        return inflater.inflate(R.layout.fragment_about, null);
     }
 }

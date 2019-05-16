@@ -1,19 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
 
-    android:background="@drawable/gradient_background">
+    android:background="@drawable/headerbg">
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="593dp"
+        android:layout_height="592dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
         android:layout_marginStart="0dp"
+        android:layout_marginTop="7dp"
         android:layout_marginEnd="0dp"
-        android:layout_marginBottom="0dp"
+        android:layout_marginBottom="3dp"
         android:background="#37FFFFFF">
 
         <LinearLayout
@@ -23,17 +26,25 @@
 
             <TextView
                 android:layout_width="374dp"
-                android:layout_height="42dp"
+                android:layout_height="match_parent"
                 android:layout_marginStart="18dp"
                 android:layout_marginTop="20dp"
+                android:elevation="5dp"
                 android:text="Settings"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+            <SearchView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="10dp" />
 
             <TextView
                 android:id="@+id/accSettings"
                 android:layout_width="match_parent"
                 android:layout_height="37dp"
+                android:elevation="3dp"
                 android:lineSpacingExtra="8sp"
+                android:onClick="acc"
                 android:paddingStart="20dp"
                 android:paddingTop="5dp"
                 android:text="Account Settings"
@@ -44,6 +55,7 @@
                 android:id="@+id/notifs"
                 android:layout_width="match_parent"
                 android:layout_height="37dp"
+                android:elevation="3dp"
                 android:paddingStart="20dp"
                 android:text="Notifications"
                 android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
@@ -52,6 +64,7 @@
                 android:id="@+id/about"
                 android:layout_width="match_parent"
                 android:layout_height="36dp"
+                android:elevation="3dp"
                 android:paddingStart="20dp"
                 android:paddingTop="5dp"
                 android:text="About"
@@ -60,5 +73,19 @@
                 android:textColor="#000000" />
         </LinearLayout>
     </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="357dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="7dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111"/>
+    //ca-app-pub-2921400589693279/5884268066
 
 </RelativeLayout>

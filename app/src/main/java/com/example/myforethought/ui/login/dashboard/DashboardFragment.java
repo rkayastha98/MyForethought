@@ -77,43 +77,9 @@ public class DashboardFragment extends Fragment {
             }
         });
         return view;
-//        public void calBtn(View view){
-//            onButtonClick(view);
-//        }
-//
-//        public void traBtn(View view){
-//            onButtonClick(view);
-//        }
-//
-//        public void budBtn(View view){
-//            onButtonClick(view);
-//        }
-//
-//        public void listBtn(View view){
-//            onButtonClick(view);
-//        }
-//
-//        public void exeBtn(View view){
-//            onButtonClick(view);
-//        }
-//
-//        public void diaBtn(View view){
-//            onButtonClick(view);
-//        }
+
 
     }
-
-//    private boolean loadFragment(Fragment fragment) {
-//        //switching fragment
-//        if (fragment != null) {
-//            getChildFragmentManager()
-//                    .beginTransaction()
-//                    .replace(R.id.fragment_container, fragment)
-//                    .commit();
-//            return true;
-//        }
-//        return false;
-//    }
 
     public void onButtonClick(View v) {
         Fragment fg;

@@ -27,6 +27,7 @@ import com.example.myforethought.R;
 import com.example.myforethought.ui.login.LoginViewModel;
 import com.example.myforethought.ui.login.LoginViewModelFactory;
 import com.example.myforethought.ui.login.dashboard.MainActivity;
+import com.google.android.gms.ads.MobileAds;
 
 import static android.provider.AlarmClock.EXTRA_MESSAGE;
 
@@ -36,6 +37,7 @@ public class LoginActivity extends AppCompatActivity {
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
+        MobileAds.initialize(this,"ca-app-pub-2921400589693279~8869524054");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         loginViewModel = ViewModelProviders.of(this, new LoginViewModelFactory())
