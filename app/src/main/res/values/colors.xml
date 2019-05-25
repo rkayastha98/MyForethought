@@ -6,4 +6,9 @@
     <color name="backgroundColor">#2e1632</color>
     <color name="colorNavIcon">#DAE9F6</color>
     <color name="colorNavText">#01294b</color>
+
+    <color name="color1">#424549</color>
+    <color name="color2">#7e455e</color>
+    <color name="color3">#796e25</color>
+    <color name="color4">#59717c</color>
 </resources>

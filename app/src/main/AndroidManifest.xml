@@ -25,10 +25,10 @@
         <activity
             android:name=".ui.login.dashboard.MainActivity"
             android:theme="@style/AppTheme.NoActionBar"/>
-        <!--<activity-->
-            <!--android:name=".ui.login.dashboard.dashboard_activity.TravelActivity"-->
-            <!--android:theme="@style/AppTheme.NoActionBar"-->
-            <!--/>-->
+        <activity
+            android:name=".ui.login.dashboard.dashboard_activity.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
 
 
 

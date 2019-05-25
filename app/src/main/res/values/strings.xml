@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">MyForethought</string>
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
@@ -131,5 +130,8 @@
     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
     AIzaSyA3x8t1duVaoPQSWPw7QxnJ80XkQth2k5c
 </string>
+
+    <string name="app_name">SwipeViewPager</string>
+
 
 </resources>

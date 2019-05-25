@@ -17,6 +17,7 @@ import com.example.myforethought.ui.login.dashboard.dashboard_activity.Dashboard
 import com.example.myforethought.ui.login.dashboard.dashboard_activity.DashboardDiary;
 import com.example.myforethought.ui.login.dashboard.dashboard_activity.DashboardExercise;
 import com.example.myforethought.ui.login.dashboard.dashboard_activity.DashboardLists;
+import com.example.myforethought.ui.login.dashboard.dashboard_activity.MainActivity;
 
 
 public class DashboardFragment extends Fragment {
@@ -89,11 +90,11 @@ public class DashboardFragment extends Fragment {
                 replaceFragment(fg);
                 break;
             case R.id.travel:
-//                fg=new DashboardTravel();
+//                fg=new MainActivity();
 //                replaceFragment(fg);
-////                break;
-//                Intent intent = new Intent(getActivity(), TravelActivity.class);
-//                startActivity(intent);
+//                break;
+                Intent intent = new Intent(getContext(), MainActivity.class);
+                startActivity(intent);
             case R.id.budget:
                 fg=new DashboardBudget();
                 replaceFragment(fg);
