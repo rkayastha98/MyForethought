@@ -1,11 +1,10 @@
 package com.example.myforethought.ui.login.dashboard;
 
-import android.media.Image;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.ImageButton;
 
 import androidx.annotation.Nullable;
@@ -18,7 +17,7 @@ import com.example.myforethought.ui.login.dashboard.dashboard_activity.Dashboard
 import com.example.myforethought.ui.login.dashboard.dashboard_activity.DashboardDiary;
 import com.example.myforethought.ui.login.dashboard.dashboard_activity.DashboardExercise;
 import com.example.myforethought.ui.login.dashboard.dashboard_activity.DashboardLists;
-import com.example.myforethought.ui.login.dashboard.dashboard_activity.DashboardTravel;
+
 
 public class DashboardFragment extends Fragment {
 
@@ -90,9 +89,11 @@ public class DashboardFragment extends Fragment {
                 replaceFragment(fg);
                 break;
             case R.id.travel:
-                fg=new DashboardTravel();
-                replaceFragment(fg);
-                break;
+//                fg=new DashboardTravel();
+//                replaceFragment(fg);
+////                break;
+//                Intent intent = new Intent(getActivity(), TravelActivity.class);
+//                startActivity(intent);
             case R.id.budget:
                 fg=new DashboardBudget();
                 replaceFragment(fg);

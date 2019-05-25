@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
@@ -14,12 +13,6 @@ import androidx.fragment.app.FragmentTransaction;
 import com.example.myforethought.R;
 import com.example.myforethought.ui.login.dashboard.Settings.About;
 import com.example.myforethought.ui.login.dashboard.Settings.AccountSettings;
-import com.example.myforethought.ui.login.dashboard.dashboard_activity.DashboardBudget;
-import com.example.myforethought.ui.login.dashboard.dashboard_activity.DashboardCalendar;
-import com.example.myforethought.ui.login.dashboard.dashboard_activity.DashboardDiary;
-import com.example.myforethought.ui.login.dashboard.dashboard_activity.DashboardExercise;
-import com.example.myforethought.ui.login.dashboard.dashboard_activity.DashboardLists;
-import com.example.myforethought.ui.login.dashboard.dashboard_activity.DashboardTravel;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 

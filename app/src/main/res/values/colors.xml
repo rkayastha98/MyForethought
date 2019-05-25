@@ -4,6 +4,6 @@
     <color name="colorPrimaryDark">#000000</color>
     <color name="colorAccent">#9C27B0</color>
     <color name="backgroundColor">#2e1632</color>
-    <color name="colorNavIcon">#dae9f6</color>
+    <color name="colorNavIcon">#DAE9F6</color>
     <color name="colorNavText">#01294b</color>
 </resources>

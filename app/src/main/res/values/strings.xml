@@ -128,4 +128,8 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+    AIzaSyA3x8t1duVaoPQSWPw7QxnJ80XkQth2k5c
+</string>
+
 </resources>
